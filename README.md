@@ -19,7 +19,7 @@ Optional:
   - for more distros, see [issue #2](https://github.com/cosmicplayground/setup/issues/2)
 - Windows
   - WSL Ubuntu 20.04
-  - until [this issue is resolved](https://github.com/cosmicplayground/cosmicplayground/issues/26),
+  - until [this issue is resolved](https://github.com/cosmicplayground/cosmicplayground/issues/29),
     Windows users must use something like
     [WSL](https://wikipedia.org/wiki/Windows_Subsystem_for_Linux) or another VM with Linux —
     ([learn more](windows))
