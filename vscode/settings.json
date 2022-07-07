@@ -43,5 +43,6 @@
 	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
 	"workbench.activityBar.visible": false,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"window.zoomLevel": 1
+	"window.zoomLevel": 1,
+	"terminal.integrated.defaultProfile.linux": "fish"
 }
