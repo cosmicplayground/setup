@@ -36,7 +36,8 @@ Example usage:
 - copy `keyrate.exe` to `C:\keyrate.exe`
 - create `keyrate.bat` (or some other name) with the contents `C:\keyrate.exe 200 6`
   or whatever path and settings you prefer
-- [press `WindowsKey+R`](https://stackoverflow.com/questions/21218346/run-batch-file-on-start-up/54328347#54328347)
+- [press `WindowsKey+R`](https://stackoverflow.com/questions/21218346/run-batch-file-on-start-up/54328347#54328347),
+  enter `shell:startup`,
   and move the `keyrate.bat` you created into the folder that appears
 
 ### macOS
