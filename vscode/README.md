@@ -22,8 +22,6 @@ You can manually copy the config files:
   press `ctrl+shift+p`, `Preferences: Open Settings (JSON)`
 - [snips.code-snippets](/vscode/snips.code-snippets) —
   press `ctrl+shift+p`, `Preferences: Configure User Snippets`, `New Global Snippets file...`
-  
-To change the default shell, press `F1` and type `Terminal: Select Default Profile`.
 
 > TODO automated solution for configuring VSCode in Windows?
 
