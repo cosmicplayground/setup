@@ -172,8 +172,8 @@ copy "$REPO_VSCODE_DIR"/snips.code-snippets "$VSCODE_USER_DIR"/snippets/
 if [ "$should_install_postgres" = "Yes" ]; then
   sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
   curl -L https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-  sudo apt-get update
-  sudo apt-get -y install postgresql
+  sudo apt update
+  sudo apt -y install postgresql
   mkdir -p "$FISH_CONFIG_DIR"
   copy "$REPO_DIR/fish/postgres.fish" "$FISH_CONFIG_DIR"
 elif [ "$should_install_postgres" = "No" ]; then
