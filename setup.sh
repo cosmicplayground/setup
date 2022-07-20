@@ -106,9 +106,9 @@ else
   curl -fsSL "https://fnm.vercel.app/install" | bash
   export PATH=~/.fnm:$PATH
   eval "`fnm env`"
-  fnm install v17
-  fnm use v17
-  fnm default v17
+  fnm install v18
+  fnm use v18
+  fnm default v18
   npm i -g npm
   npm i -g @feltcoop/gro
   mkdir -p "$FISH_CONFIG_DIR"
